@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Tiger Nixon",
+      "office": "Edinburgh",
+      "designation": "Junior Technical Author",
+      "department": "Hardware",
+      "start_date": "2011/04/25",
+      "end_date": "2012/03/29",
+      "email": "john@doe.com",
+      "action": "<table class='table-zero table-action-btn'><tr><td><div class='btn-group'><a href='#' class='btn btn-primary btn-sm'>View</a><button type='button' class='btn btn-primary btn-sm dropdown-toggle dropdown-toggle-right' data-toggle='dropdown'><span class='caret'></span></button><div class='dropdown-menu'><a class='dropdown-item' href='#'>Edit</a><a class='dropdown-item' href='#'>Duplicate</a><a class='dropdown-item text-danger' href='#'>Block Employee</a></div></div></td></tr></table>",
+      "paid_unpaid": "Unpaid",
+      "status": "<span class='badge badge-warning'>Pending</span>"
+    },
+    {
+      "id": "2",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Garrett Winters",
+      "office": "New York",
+      "designation": "Software Engineer",
+      "department": "Development",
+      "start_date": "2011/07/25",
+      "end_date": "2012/03/29",
+      "email": "john@doe.com",
+      "action": "<table class='table-zero table-action-btn'><tr><td><div class='btn-group'><a href='#' class='btn btn-primary btn-sm'>View</a><button type='button' class='btn btn-primary btn-sm dropdown-toggle dropdown-toggle-right' data-toggle='dropdown'><span class='caret'></span></button><div class='dropdown-menu'><a class='dropdown-item' href='#'>Edit</a><a class='dropdown-item' href='#'>Duplicate</a><a class='dropdown-item text-danger' href='#'>Block Employee</a></div></div></td></tr></table>",
+      "paid_unpaid": "Unpaid",
+      "status": "<span class='badge badge-danger'>Cancelled</span>"
+    },
+    {
+      "id": "3",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Ashton Cox",
+      "office": "San Francisco",
+      "designation": "Integration Specialist",
+      "department": "Development",
+      "start_date": "2009/01/12",
+      "end_date": "2012/03/29",
+      "email": "john@doe.com",
+      "action": "<table class='table-zero table-action-btn'><tr><td><div class='btn-group'><a href='#' class='btn btn-primary btn-sm'>View</a><button type='button' class='btn btn-primary btn-sm dropdown-toggle dropdown-toggle-right' data-toggle='dropdown'><span class='caret'></span></button><div class='dropdown-menu'><a class='dropdown-item' href='#'>Edit</a><a class='dropdown-item' href='#'>Duplicate</a><a class='dropdown-item text-danger' href='#'>Block Employee</a></div></div></td></tr></table>",
+      "paid_unpaid": "Unpaid",
+      "status": "<span class='badge badge-success'>Approved</span>"
+    },
+    {
+      "id": "4",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Cedric Kelly",
+      "designation": "Sales Assistant",
+      "office": "London",
+      "department": "Marketing",
+      "day": "Full",
+      "start_date": "2012/03/29",
+      "end_date": "2012/03/29",
+      "email": "john@doe.com",
+      "action": "<table class='table-zero table-action-btn'><tr><td><div class='btn-group'><a href='#' class='btn btn-primary btn-sm'>View</a><button type='button' class='btn btn-primary btn-sm dropdown-toggle dropdown-toggle-right' data-toggle='dropdown'><span class='caret'></span></button><div class='dropdown-menu'><a class='dropdown-item' href='#'>Edit</a><a class='dropdown-item' href='#'>Duplicate</a><a class='dropdown-item text-danger' href='#'>Block Employee</a></div></div></td></tr></table>",
+      "paid_unpaid": "Unpaid",
+      "status": "<span class='badge badge-success'>Approved</span>"
+    },
+    {
+      "id": "5",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Airi Satou",
+      "office": "Tokyo",
+      "designation": "Senior Javascript Developer",
+      "department": "Development",
+      "start_date": "2008/11/28",
+      "end_date": "2012/03/29",
+      "email": "john@doe.com",
+      "action": "<table class='table-zero table-action-btn'><tr><td><div class='btn-group'><a href='#' class='btn btn-primary btn-sm'>View</a><button type='button' class='btn btn-primary btn-sm dropdown-toggle dropdown-toggle-right' data-toggle='dropdown'><span class='caret'></span></button><div class='dropdown-menu'><a class='dropdown-item' href='#'>Edit</a><a class='dropdown-item' href='#'>Duplicate</a><a class='dropdown-item text-danger' href='#'>Block Employee</a></div></div> </td></tr></table>",
+      "paid_unpaid": "Unpaid",
+      "status": "<span class='badge badge-success'>Approved</span>"
+    }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Tiger Nixon",
+      "action": "<button type='button' class='btn btn-primary btn-sm'>Unblock</button>"
+    },
+    {
+      "id": "2",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Garrett Winters",
+      "action": "<button type='button' class='btn btn-primary btn-sm'>Unblock</button>"
+    },
+    {
+      "id": "3",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Ashton Cox",
+      "action": "<button type='button' class='btn btn-primary btn-sm'>Unblock</button>"
+    },
+    {
+      "id": "4",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Cedric Kelly",
+      "action": "<button type='button' class='btn btn-primary btn-sm'>Unblock</button>"
+    },
+    {
+      "id": "5",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Airi Satou",
+      "action": "<button type='button' class='btn btn-primary btn-sm'>Unblock</button>"
+    }
+ ]
+}

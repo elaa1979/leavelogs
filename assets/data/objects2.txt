@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Tiger Nixon",
+      "leavetype": "Casual",
+      "day": "Full",
+      "start_date": "2011/04/25",
+      "end_date": "2012/03/29",
+      "no_leave": "5",
+      "reason": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "cancel": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "action": "<table class='table-zero table-action-btn'><tr><td><button type='button' class='btn btn-primary btn-sm mr-1'>Approve</button></td><td><button type='button' class='btn btn-secondary btn-sm mr-1'>Cancel</button></td></tr></table>",
+      "paid_unpaid": "Unpaid",
+      "status": "<span class='badge badge-warning'>Pending</span>"
+    },
+    {
+      "id": "2",
+      "name": "Garrett Winters",
+      "leavetype": "Casual",
+      "day": "Half",
+      "start_date": "2011/07/25",
+      "end_date": "2012/03/29",
+      "no_leave": "5",
+      "reason": "<a href='#'>Lorem Ipsum has been the industry's standard dummy text</a>",
+      "cancel": "<a href='#'>Lorem Ipsum has been the industry's standard dummy text</a>",
+      "action": "<table class='table-zero table-action-btn'><tr><td><button type='button' class='btn btn-primary btn-sm mr-1'>Approve</button></td><td><button type='button' class='btn btn-secondary btn-sm mr-1'>Cancel</button></td></tr></table>",
+      "paid_unpaid": "Unpaid",
+      "status": "<span class='badge badge-danger'>Cancelled</span>"
+    },
+    {
+      "id": "3",
+      "name": "Ashton Cox",
+      "leavetype": "Sick",
+      "day": "Full",
+      "start_date": "2009/01/12",
+      "end_date": "2012/03/29",
+      "no_leave": "5",
+      "reason": "<a href='#'>Lorem Ipsum has been the industry's standard dummy text</a>",
+      "cancel": "<a href='#'>Lorem Ipsum has been the industry's standard dummy text</a>",
+      "action": "<table class='table-zero table-action-btn'><tr><td><button type='button' class='btn btn-primary btn-sm mr-1'>Approve</button></td><td><button type='button' class='btn btn-secondary btn-sm mr-1'>Cancel</button></td></tr></table>",
+      "paid_unpaid": "Unpaid",
+      "status": "<span class='badge badge-success'>Approved</span>"
+    },
+    {
+      "id": "4",
+      "name": "Cedric Kelly",
+      "leavetype": "Sick",
+      "day": "Full",
+      "start_date": "2012/03/29",
+      "end_date": "2012/03/29",
+      "no_leave": "5",
+      "reason": "<a href='#'>Lorem Ipsum has been the industry's standard dummy text</a>",
+      "cancel": "<a href='#'>Lorem Ipsum has been the industry's standard dummy text</a>",
+      "action": "<table class='table-zero table-action-btn'><tr><td><button type='button' class='btn btn-primary btn-sm mr-1'>Approve</button></td><td><button type='button' class='btn btn-secondary btn-sm mr-1'>Cancel</button></td></tr></table>",
+      "paid_unpaid": "Unpaid",
+      "status": "<span class='badge badge-success'>Approved</span>"
+    },
+    {
+      "id": "5",
+      "name": "Airi Satou",
+      "leavetype": "Earned",
+      "day": "Full",
+      "start_date": "2008/11/28",
+      "end_date": "2012/03/29",
+      "no_leave": "5",
+      "reason": "<a href='#'>Lorem Ipsum has been the industry's standard dummy text</a>",
+      "cancel": "<a href='#'>Lorem Ipsum has been the industry's standard dummy text</a>",
+      "action": "<table class='table-zero table-action-btn'><tr><td><button type='button' class='btn btn-primary btn-sm mr-1'>Approve</button></td><td><button type='button' class='btn btn-secondary btn-sm mr-1'>Cancel</button></td></tr></table>",
+      "paid_unpaid": "Unpaid",
+      "status": "<span class='badge badge-success'>Approved</span>"
+    }
+ ]
+}

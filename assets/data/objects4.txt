@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Tiger Nixon",
+      "office": "Edinburgh",
+      "designation": "Junior Technical Author",
+      "admin": "<span class='badge badge-info'>Yes</span>",
+      "leaveapp": "<span class='badge badge-info'>Yes</span>",
+      "clockapp": "<span class='badge badge-info'>Yes</span>",
+      "action": "<table class='table-zero table-action-btn'><tr><td><button type='button' class='btn btn-primary btn-sm dropdown-toggle dropdown-toggle-right' data-toggle='dropdown'><i class='fa fa-gear mr-1'></i><span class='caret'></span></button><div class='dropdown-menu'><a class='dropdown-item' href='#'>Make Administrator</a><a class='dropdown-item' href='#'>Make Leave Approver</a><a class='dropdown-item' href='#'>Clock In and Out Approver</a></div></td></tr></table>"
+    },
+    {
+      "id": "2",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Garrett Winters",
+      "office": "New York",
+      "designation": "Software Engineer",
+      "admin": "<span class='badge badge-info'>Yes</span>",
+      "leaveapp": "<span class='badge badge-info'>Yes</span>",
+      "clockapp": "<span class='badge badge-secondary'>No</span>",
+      "action": "<table class='table-zero table-action-btn'><tr><td><button type='button' class='btn btn-primary btn-sm dropdown-toggle dropdown-toggle-right' data-toggle='dropdown'><i class='fa fa-gear mr-1'></i><span class='caret'></span></button><div class='dropdown-menu'><a class='dropdown-item' href='#'>Make Administrator</a><a class='dropdown-item' href='#'>Make Leave Approver</a><a class='dropdown-item' href='#'>Clock In and Out Approver</a></div></td></tr></table>"
+    },
+    {
+      "id": "3",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Ashton Cox",
+      "office": "San Francisco",
+      "designation": "Integration Specialist",
+      "admin": "<span class='badge badge-info'>Yes</span>",
+      "leaveapp": "<span class='badge badge-secondary'>No</span>",
+      "clockapp": "<span class='badge badge-secondary'>No</span>",
+      "action": "<table class='table-zero table-action-btn'><tr><td><button type='button' class='btn btn-primary btn-sm dropdown-toggle dropdown-toggle-right' data-toggle='dropdown'><i class='fa fa-gear mr-1'></i><span class='caret'></span></button><div class='dropdown-menu'><a class='dropdown-item' href='#'>Make Administrator</a><a class='dropdown-item' href='#'>Make Leave Approver</a><a class='dropdown-item' href='#'>Clock In and Out Approver</a></div></td></tr></table>"
+    },
+    {
+      "id": "4",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Cedric Kelly",
+      "designation": "Sales Assistant",
+      "admin": "<span class='badge badge-secondary'>No</span>",
+      "leaveapp": "<span class='badge badge-info'>Yes</span>",
+      "clockapp": "<span class='badge badge-secondary'>No</span>",
+      "action": "<table class='table-zero table-action-btn'><tr><td><button type='button' class='btn btn-primary btn-sm dropdown-toggle dropdown-toggle-right' data-toggle='dropdown'><i class='fa fa-gear mr-1'></i><span class='caret'></span></button><div class='dropdown-menu'><a class='dropdown-item' href='#'>Make Administrator</a><a class='dropdown-item' href='#'>Make Leave Approver</a><a class='dropdown-item' href='#'>Clock In and Out Approver</a></div></td></tr></table>"
+    },
+    {
+      "id": "5",
+      "check": "<div class='custom-control custom-checkbox'><input type='checkbox' class='custom-control-input' id='DeleteSelectedItem1' name='DeleteSelectedItem'><label class='custom-control-label' for='DeleteSelectedItem1'></label></div>",
+      "img": "<img src='../assets/images/img_avatar3.png' alt='John Doe' class='rounded-circle' style='width:40px;'>",
+      "name": "Airi Satou",
+      "office": "Tokyo",
+      "designation": "Senior Javascript Developer",
+      "admin": "<span class='badge badge-info'>Yes</span>",
+      "leaveapp": "<span class='badge badge-secondary'>No</span>",
+      "clockapp": "<span class='badge badge-secondary'>No</span>",
+      "action": "<table class='table-zero table-action-btn'><tr><td><button type='button' class='btn btn-primary btn-sm dropdown-toggle dropdown-toggle-right' data-toggle='dropdown'><i class='fa fa-gear mr-1'></i><span class='caret'></span></button><div class='dropdown-menu'><a class='dropdown-item' href='#'>Make Administrator</a><a class='dropdown-item' href='#'>Make Leave Approver</a><a class='dropdown-item' href='#'>Clock In and Out Approver</a></div></td></tr></table>"
+    }
+ ]
+}
