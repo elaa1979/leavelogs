@@ -37,7 +37,7 @@ include('../dal/branch-dal.php');
     <div class="content-section mb-0 pb-0">
         <div class="row">
             <div class="col-lg-6">
-                <h4>Manage Branches</h4>
+                <h4>Branches</h4>
             </div>
         </div>
     </div>
@@ -56,13 +56,12 @@ include('../dal/branch-dal.php');
                         <table id="branches" class="table table-bordered mb-0" style="width:100%">
                             <thead>
                                 <tr>
-                                    <th></th>
+                                    <th style="width:1px;">#</th>
                                     <th>Name</th>
-                                    <th>Description</th>
-                                    <th>Address</th>
+                                    <th>Location</th>
                                     <th>TimeZone</th>
-                                    <th>ModifiedOn</th>
-                                    <th>Active</th>
+                                    <th>Status</th>
+                                    <th style="width:1px;"></th>
                                 </tr>
                             </thead>
                         </table>
@@ -77,6 +76,8 @@ include('../dal/branch-dal.php');
     <!--/ END OF FOOTER -->
     <!--REQUIRED POPPERS -->
     <?php include '../includes/layouts/admin/support-modal.php'; ?>
+    <?php include 'includes/add-new-branch.php'; ?>
+    <?php include 'includes/edit-branch.php'; ?>
     <!--/ END OF REQUIRED POPPERS -->
     <!-- Required Scripts -->
     <script src="../assets/vendors/jquery.min.js"></script>
