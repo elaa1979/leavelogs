@@ -28,26 +28,26 @@
                         <div class="row">
                             <label class="col-sm-6">Email address</label>
                             <div class="col-sm-6 text-right text-12">
-                                <a href="forgot-username.html">Forgot Username?</a>
+                                <a href="forgot-username.html"  tabindex="5">Forgot Username?</a>
                             </div>
                         </div>
-                        <input type="email" name="email" class="form-control" />
+                        <input type="email" name="email" class="form-control" autofocus="" tabindex="1" />
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <label class="col-sm-6">Password<span toggle="#password-field" class="fa fa-fw fa-eye-slash field-icon toggle-password ml-2"></span></label>
+                            <label class="col-sm-6">Password<span  onclick="passToggle()" class="fa fa-fw fa-eye-slash field-icon toggle-password ml-2"></span></label>
                             <div class="col-sm-6 text-right text-12">
-                                <a href="forgot-password.html">Forgot Password?</a>
+                                <a href="forgot-password.html"  tabindex="6">Forgot Password?</a>
                             </div>
                         </div>
-                        <input type="password" name="password" class="form-control" />
+                        <input type="password" name="password" id="password" class="form-control" tabindex="2" />
                     </div>
                     <div class="form-group">
-                        <button type="submit" name="login_user" class="btn btn-block btn-primary">Login</button>
+                        <button type="submit" name="login_user"  tabindex="3" class="btn btn-block btn-primary">Login</button>
                     </div>
                 </form>
                 <div class="form-group mb-0 text-14 text-center">
-                    Don't have an account?&nbsp;<a href="#">Register</a>.
+                    Don't have an account?&nbsp;<a href="#"  tabindex="4">Register</a>.
                 </div>
             </div>
         </div>
