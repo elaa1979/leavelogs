@@ -1,4 +1,4 @@
-body {
+﻿body {
     background-color: #fff !important;
     color: #333 !important;
     padding-top: 8px;
@@ -68,7 +68,9 @@ body {
 [data-toggle="collapse"].collapsed .fa:before {
     content: "\f13a";
 }
-
+.form-group label{
+    font-weight: 600;
+}
 .accordion .card-header a {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
@@ -100,7 +102,10 @@ body {
     width: 100%;
     overflow-x: auto;
 }
-
+.table thead th {
+   border-bottom-width: 1px !important;
+    background-color: #f8f9fa !important;
+}
 .custom-checkbox .custom-control-label::before {
     border-radius: .1rem !important;
 }
