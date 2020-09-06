@@ -64,7 +64,7 @@ $(document).ready(function () {
             {
                 "orderable": false,
                 "data": "null",
-                "defaultContent": '<a href="javascript:;" class="btn btn-sm btn-primary float-right">Edit</button>'
+                "defaultContent": '<a href="../admin/edit-employee.php" class="btn btn-sm btn-primary float-right">Edit</button>'
             }
         ]
     });
@@ -92,7 +92,7 @@ $(document).ready(function () {
 
     $('.dataTables_filter').after($('<button type="button" id="Uploademployee" class="btn btn-sm btn-primary ml-3" data-toggle="modal" data-target="#uploademployeeModal" data-backdrop="static" data-keyboard="false">Upload Employees</button>'));
 
-    $('#Uploademployee').after($('<button type="button" id="Addemployee" class="btn btn-sm btn-primary ml-3">Add Employee</button>'));
+    $('#Uploademployee').after($('<a href="../admin/add-employee.php" id="Addemployee" class="btn btn-sm btn-primary ml-3">Add Employee</button>'));
     
     $('#Addemployee').after($('<button type="button" data-toggle="modal" data-target=".DeleteModal" id="bulkDelete" class="d-none btn btn-sm btn-danger ml-3">Block</button>'));
 
