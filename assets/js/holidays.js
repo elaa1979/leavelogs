@@ -1,21 +1,4 @@
 // DataTable
-function format(d) {
-    return '<table class="table table-bordered mb-0" style="width:100%">' +
-        '<tr>' +
-        '<td>Name:</td>' +
-        '<td>' + d.Name + '</td>' +
-        '</tr>' +
-        '<tr>' +
-        '<td>Description</td>' +
-        '<td>' + d.Description + '</td>' +
-        '</tr>' +  
-        '<tr>' +
-        '<td>Date</td>' +
-        '<td>' + d.Date + '</td>' +
-        '</tr>' +  
-        '</table>';
-}
-//
 $(document).ready(function () {
     var table = $('#holidays').DataTable({
         //"ajax": "../assets/data/objects3.txt",
@@ -33,98 +16,38 @@ $(document).ready(function () {
             },
         },
         "pagingType": "simple",
-        "order": [[3, "desc"]],
-        "columnDefs": [{ "searchable": false,"orderable": false, "targets": [0, 1, 2, 3] }],
-        "columns": [
+        "order": [[1, "desc"]],
+        "columnDefs": [{ "searchable": false,"orderable": false, "targets": [0] }],
+        "columns": [  
+            { "data": "Id" },          
+            { "data": "Name" },
+            { "data": "Date" },
             {
-                "className": 'details-control',
                 "orderable": false,
                 "data": "null",
-                "defaultContent": ''
+                "defaultContent": 'India, Australia, USA, Singapore'
             },
-            { "data": "Name" },
-            { "data": "Description" },
-            { "data": "Date" },
+            {
+                "orderable": false,
+                "data": "null",
+                "defaultContent": '<a href="javascript:;" class="btn btn-sm btn-primary float-right">Edit</a>'
+            }
         ]
     });
 
-    // Add event listener for opening and closing details
-    $('#holidays tbody').on('click', 'td.details-control', function () {
-        var tr = $(this).closest('tr');
-        var row = table.row(tr);
-
-        if (row.child.isShown()) {
-            // This row is already open - close it
-            row.child.hide();
-            tr.removeClass('shown');
-        }
-        else {
-            // Open this row
-            row.child(format(row.data())).show();
-            tr.addClass('shown');
-        }
-    });
+    
     //
     $('.table').wrap('<div class="table-scroll" />');
 
     $('.table-left').append($('.dataTables_filter'));
     
-    $('.dataTables_filter').after($('<button type="button" data-toggle="modal" data-target=".DeleteModal" id="bulkDelete" class="d-none btn btn-sm btn-danger ml-3">Block</button>'));
+    $('.dataTables_filter').after($('<button type="button" data-toggle="modal" data-backdrop="static" data-keyboard="false" data-target="#addholidayslistModal" id="AddHolidaysList" class="btn btn-sm btn-primary ml-3">Add Holidays List</button>'));
 
     $('.dataTables_info').appendTo('.table-right');
 
     $('.dataTables_info').before($('.dataTables_length'));
 
     $('.dataTables_info').before($('.dataTables_paginate'));
-
-    $("#selectall").click(function () {
-        var checked = $(this).is(':checked');
-        var deleteFlag = 0;
-        var countRow = $('#holidays tbody tr').length;
-        if (countRow == 1) {
-            var singleRowCheck = $('#holidays tbody tr')["0"].innerText;
-            if (singleRowCheck != 'No records found...') {
-                deleteFlag = 1;
-            }
-        }
-        else if (countRow > 1) {
-            deleteFlag = 1;
-        }
-
-        if (checked && deleteFlag == 1) {
-            $("#bulkDelete").removeClass('d-none');
-        }
-        else {
-            $("#bulkDelete").addClass('d-none');
-        }
-        $("input[name='DeleteSelectedItem']").each(function () {
-            this.checked = checked;
-            $(this).click(function (e) {
-                if (this.checked && $("input[name='DeleteSelectedItem']").length == $("input[name='DeleteSelectedItem']:checked").length) {
-                    $("#selectall")[0].checked = true;
-                    return;
-                }
-                $("#selectall")[0].checked = false;
-            });
-        });
-    });   
-    //
-    $("#fp").hide(); 
-    $(".custom-file-input").on("change", function() {
-      var fileName = $(this).val().split("\\").pop();
-      $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
-      // get file size
-      var totalBytes = this.files[0].size;
-      if(totalBytes < 1000000){
-         var _size = Math.floor(totalBytes/1000) + 'KB';
-         $("#fp").show(); 
-         $("#fp").text(_size); 
-      }else{
-         var _size = Math.floor(totalBytes/1000000) + 'MB';  
-         $("#fp").show(); 
-         $("#fp").text(_size); 
-      }
       
-    });   
 });
 
