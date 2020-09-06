@@ -97,7 +97,17 @@
     background: none !important;
     border-bottom: 1px solid rgba(0,0,0,.125);
 }
-
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff !important;
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+}
+.nav-pills .nav-link {
+    color: #fff !important;
+    background-color: #138496 !important;
+    border-color: #117a8b !important;
+    margin-right:10px;
+}
 .table-scroll {
     width: 100%;
     overflow-x: auto;
