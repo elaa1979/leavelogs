@@ -34,12 +34,12 @@
             <a <?php if (stripos($_SERVER['REQUEST_URI'],'manage-approvers.php') !== false) {echo 'class="nav-link active"';} ?> class="nav-link" href="manage-approvers.php">
                 <i class="fa fa-calendar-check-o mr-2"></i><span>Approvers</span>
             </a>
-            <a <?php if (stripos($_SERVER['REQUEST_URI'],'../admin/leaves.php') !== false) {echo 'class="nav-link active"';} ?> class="nav-link" href="../admin/leaves.php">
+            <a <?php if (stripos($_SERVER['REQUEST_URI'],'leaves.php') !== false) {echo 'class="nav-link active"';} ?> class="nav-link" href="../admin/leaves.php">
                 <i class="fa fa-home mr-2"></i><span>Leaves</span>
             </a>
             
-            <a <?php if (stripos($_SERVER['REQUEST_URI'],'../admin/notifications.php') !== false) {echo 'class="nav-link active"';} ?> class="nav-link" href="../admin/notifications.php">
-                <i class="fa fa-bell-o mr-2"></i><span>Notifications</span>
+            <a <?php if (stripos($_SERVER['REQUEST_URI'],'email-templates.php') !== false) {echo 'class="nav-link active"';} ?> class="nav-link" href="email-templates.php">
+                <i class="fa fa-file-photo-o mr-2"></i><span>Email Templates</span>
             </a>
 
             <a class="btn btn-info support text-white" data-toggle="modal" data-target="#supportModal" 
