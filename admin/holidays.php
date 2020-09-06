@@ -37,7 +37,7 @@ include('../dal/holiday-dal.php');
     <div class="content-section mb-0 pb-0">
         <div class="row">
             <div class="col-lg-6">
-                <h4>Manage Holidays</h4>
+                <h4>Holidays</h4>
             </div>
         </div>
     </div>
@@ -56,10 +56,11 @@ include('../dal/holiday-dal.php');
                         <table id="holidays" class="table table-bordered mb-0" style="width:100%">
                             <thead>
                                 <tr>
-                                    <th></th>
+                                    <th style="width:1px;">#</th>
                                     <th>Name</th>
-                                    <th>Description</th>
                                     <th>Date</th>
+                                    <th>Branches</th>
+                                    <th style="width:1px;"></th>
                                 </tr>
                             </thead>
                         </table>
@@ -74,6 +75,8 @@ include('../dal/holiday-dal.php');
     <!--/ END OF FOOTER -->
     <!--REQUIRED POPPERS -->
     <?php include '../includes/layouts/admin/support-modal.php'; ?>
+    <?php include 'includes/add-holidays-list.php'; ?>
+    
     <!--/ END OF REQUIRED POPPERS -->
     <!-- Required Scripts -->
     <script src="../assets/vendors/jquery.min.js"></script>
@@ -86,5 +89,4 @@ include('../dal/holiday-dal.php');
     <script src="../assets/js/holidays.js"></script>
     <script src="../assets/js/common.js"></script>
 </body>
-
 </html>
