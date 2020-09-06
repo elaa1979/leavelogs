@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color: #fff !important;
     color: #333 !important;
     padding-top: 8px;
@@ -188,7 +188,6 @@ tr.shown td.details-control {
     color: #333;
     text-decoration: none;
     clear: both;
-    padding:.5rem !important;
 }
 
     .leftnav-links a:hover, .leftnav-links a.active {
